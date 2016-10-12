@@ -10,6 +10,10 @@ Bob Ross has a twitch.tv channel and it's incredible. You can check that out [he
 
 [![](http://img.youtube.com/vi/YLO7tCdBVrA/0.jpg)](https://www.youtube.com/watch?v=YLO7tCdBVrA "Bob Ross")
 
+What you will be building:
+
+![](http://i.imgur.com/H0R0hY1.png?1)
+
 # Instructions
 
 Lets treat Interface Builder like our empty canvas.  
@@ -52,6 +56,32 @@ The following constraints should be added to this new `UIImageView`:
 It should now look like this when you run the app:
 
 ![](http://i.imgur.com/x0ojPSn.png?1)
+
+Lets add another `UIImageView` onto the canvas which will represent our Tree. Feel free to set the image to Tree.
+
+* This `UIImageView`'s width should be 0.7 (multiplier) of the View's width.
+* The `UIImageView`'s bottom should equal the Grass's top with a multiplier a 1.3.
+* The `UIImageView`'s trailing constraint should equal the Views trailing edge.
+* The aspect ratio of this `UIImageView` should be 1100:823
+
+The app should now look like this:
+
+![](http://i.imgur.com/2aYVAZk.png?1)
+
+Bob Ross has nothing on us! Congrats (so far!).
+
+You should add two more `UIImageView`'s. One will represent the cloud and the other will represent the kids playing. Without telling you exactly what the constraints should be, you should figure out those constraints on your own where the app looks something similar to this:
+
+Here it is on an iPhone 7 plus:
+
+![](http://i.imgur.com/H0R0hY1.png?1)
+
+Here it is now on an iPhone 5:
+
+![](http://i.imgur.com/5hcdOzs.png?1)
+
+Feel free to add more trees, other objects and constrain them to each other (similar to how we did this above). I think this could use a lighthouse, it could also use a bird. Share with me your masterpieces and send me a screenshot of your finished product on slack! 
+
 
 
 
