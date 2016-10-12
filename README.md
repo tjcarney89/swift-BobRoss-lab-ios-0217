@@ -28,7 +28,7 @@ Add an Aspect Ratio constraint to this `UIImageView`. After selecting this const
 
 Now you should constrain this `UIImageView` to the `View`. The bottom, leading and trailing edges of the `UIImageView` should equal the `View`.
 
-Through those three constraints, the `width` of this `UIImageView` and considering our `height` and `width` work with each other (because of setting the Aspect Ratio) we've technically set the `height` on this `UIImageView` already!
+Through those three constraints, the `width` of this `UIImageView` is now set and considering our `height` and `width` work with each other (because of setting the Aspect Ratio) we've technically set the `height` on this `UIImageView` already!
 
 Select the `UIImageView`. In the attributes inspector, set its image to `Grass`. Run your app, it should look like the following screenshot:
 
